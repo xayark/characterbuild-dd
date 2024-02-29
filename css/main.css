@@ -1,0 +1,71 @@
+body {
+    margin:0%;
+    padding: 0%;
+    background: black;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    background-color: red;
+    padding: 10px 0;
+}
+
+#main-logo {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+.characters {
+    list-style-type: none;
+    padding: 0%;
+}
+
+.characters li {
+    height:220px;
+}
+
+.characters li h3 {
+    color:white;
+    padding: 15px 8px;
+}
+
+.characters li a {
+    text-decoration: none;
+}
+
+.sprite {
+    width: 150px;
+    height: 150px;
+    background-image: url(../images/marvelSprites.jpg);
+}
+
+#carol {
+    background-position: -150px 0px;
+}
+
+#clint {
+    background-position: -300px 0px;
+}
+
+#banner {
+    background-position: -450px 0px;
+}
+
+#thor {
+    background-position: -600px 0px;
+}
+
+#widow {
+    background-position: -750px 0px;
+}
+
+#cap:hover, #carol:hover, #clint:hover, #banner:hover, #thor:hover, #widow:hover {
+    background-position-y: 150px;
+}
+
+#instructions {
+    padding: 20px;
+    text-align: center;
+}
