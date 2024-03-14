@@ -94,13 +94,22 @@ header {
 
 #instructions h3 {
     font-size: 22px;
+    padding: 0%;
+    margin: 0%;
+}
+
+#instructions p {
+    margin: 0%;
+    margin-top: 10px;
+    padding: 0%;
 }
 
 .sticky-footer {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
     margin-top: 40px;
 }
 
@@ -114,4 +123,28 @@ header {
     padding-left: 15px;
     width: auto;
     height: 30px;
+}
+
+.button {
+    margin: 0%;
+    background-color: #3fabdd;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.sticky-footer h1 {
+    margin: 0px 10px;
+    padding: 0%;
+    font-size: 50px;
+}
+
+.button:hover {
+    background-color: #1b1b1b;
 }
