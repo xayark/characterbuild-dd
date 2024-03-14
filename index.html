@@ -4,6 +4,56 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/main.css">
     <title>League of Legends</title>
+    <script>
+        function displayContent1() {
+          document.getElementById("popup1").style.display = "block";
+        }
+        function closeContent1() {
+          document.getElementById("popup1").style.display = "none";
+        }
+        function displayContent2() {
+          document.getElementById("popup2").style.display = "block";
+        }
+        function closeContent2() {
+          document.getElementById("popup2").style.display = "none";
+        }
+        function displayContent3() {
+          document.getElementById("popup3").style.display = "block";
+        }
+        function closeContent3() {
+          document.getElementById("popup3").style.display = "none";
+        }
+        function displayContent4() {
+          document.getElementById("popup4").style.display = "block";
+        }
+        function closeContent4() {
+          document.getElementById("popup4").style.display = "none";
+        }
+        function displayContent5() {
+          document.getElementById("popup5").style.display = "block";
+        }
+        function closeContent5() {
+          document.getElementById("popup5").style.display = "none";
+        }
+        function displayContent6() {
+          document.getElementById("popup6").style.display = "block";
+        }
+        function closeContent6() {
+          document.getElementById("popup6").style.display = "none";
+        }
+        function displayContent7() {
+          document.getElementById("popup7").style.display = "block";
+        }
+        function closeContent7() {
+          document.getElementById("popup7").style.display = "none";
+        }
+        function displayContent8() {
+          document.getElementById("popup8").style.display = "block";
+        }
+        function closeContent8() {
+          document.getElementById("popup8").style.display = "none";
+        }
+    </script>
 </head>
 <body>
     <header>
@@ -17,49 +67,49 @@
             <ul class="characters">
                 <li>
                     <a href="#lightbox">
-                        <div class="sprite" id="char1"></div>
+                        <div class="sprite" id="char1" onclick="displayContent1()"></div>
                         <h3>Pantheon</h3>
                     </a>
                 </li>
                 <li>
                     <a href="#lightbox">
-                        <div class="sprite" id="char2"></div>
+                        <div class="sprite" id="char2" onclick="displayContent2()"></div>
                         <h3>Diana</h3>
                     </a>
                 </li>
                 <li>
                     <a href="#lightbox">
-                        <div class="sprite" id="char3"></div>
+                        <div class="sprite" id="char3" onclick="displayContent3()"></div>
                         <h3>Kindred</h3>
                     </a>
                 </li>
                 <li>
                     <a href="#lightbox">
-                        <div class="sprite" id="char4"></div>
+                        <div class="sprite" id="char4" onclick="displayContent4()"></div>
                         <h3>Kayn</h3>
                     </a>
                 </li>
                 <li>
                     <a href="#lightbox">
-                        <div class="sprite" id="char5"></div>
+                        <div class="sprite" id="char5" onclick="displayContent5()"></div>
                         <h3>Veigar</h3>
                     </a>
                 </li>
                 <li>
                     <a href="#lightbox">
-                        <div class="sprite" id="char6"></div>
+                        <div class="sprite" id="char6" onclick="displayContent6()"></div>
                         <h3>Nautilus</h3>
                     </a>
                 </li>
                 <li>
                     <a href="#lightbox">
-                        <div class="sprite" id="char7"></div>
+                        <div class="sprite" id="char7" onclick="displayContent7()"></div>
                         <h3>Nilah</h3>
                     </a>
                 </li>
                 <li>
                     <a href="#lightbox">
-                        <div class="sprite" id="char8"></div>
+                        <div class="sprite" id="char8" onclick="displayContent8()"></div>
                         <h3>Morgana</h3>
                     </a>
                 </li>
@@ -67,7 +117,7 @@
         </nav>
         <section id="instructions">
             <h3>Choose your favourite champion!</h3>
-            <p><i>Hover your mouse on the champions for detailed info on them</i></p>
+            <p><i>Click on any of the champtions for a detailed info.<br>Did you know? There are currently </i>167<i> champions in League of Legends!</i></p>
         </section>
     </main>
     <footer class="sticky-footer">
@@ -82,5 +132,103 @@
             <a class="button" href="https://www.github.com/xayark/characterbuild-dd">View Code >></a>
         </div>
     </footer>
+
+    <div id="popup1" class="lightbox">
+        <span class="close cursor" onclick="closeContent1()">&times;</span>
+        <div class="popup-content">
+            <img class="charart" src="./images/Pantheon_OriginalCentered.webp">
+            <div class="column">
+                <div class="caption-container">
+                    <h1 id="caption">Pantheon</h1>
+                </div>
+                <p>Once an unwilling host to the Aspect of War, Atreus Atreus survived when the celestial power within him was slain, refusing to succumb to a blow that tore stars from the heavens. In time, he learned to embrace the power of his own mortality, and the stubborn resilience that goes along with it. Atreus now opposes the divine as Pantheon Pantheon reborn, his unbreakable will fueling the fallen Aspect’s weapons on the field of battle.</p>
+            </div>
+        </div>
+    </div>
+    <div id="popup2" class="lightbox">
+        <span class="close cursor" onclick="closeContent2()">&times;</span>
+        <div class="popup-content">
+            <img class="charart" src="./images/Diana_OriginalSkin.webp">
+            <div class="column">
+                <div class="caption-container">
+                    <h1 id="caption">Diana</h1>
+                </div>
+                <p>Once an unwilling host to the Aspect of War, Atreus Atreus survived when the celestial power within him was slain, refusing to succumb to a blow that tore stars from the heavens. In time, he learned to embrace the power of his own mortality, and the stubborn resilience that goes along with it. Atreus now opposes the divine as Pantheon Pantheon reborn, his unbreakable will fueling the fallen Aspect’s weapons on the field of battle.</p>
+            </div>
+        </div>
+    </div>
+    <div id="popup3" class="lightbox">
+        <span class="close cursor" onclick="closeContent3()">&times;</span>
+        <div class="popup-content">
+            <img class="charart" src="./images/Kindred_OriginalCentered.webp">
+            <div class="column">
+                <div class="caption-container">
+                    <h1 id="caption">Kindred</h1>
+                </div>
+                <p>Once an unwilling host to the Aspect of War, Atreus Atreus survived when the celestial power within him was slain, refusing to succumb to a blow that tore stars from the heavens. In time, he learned to embrace the power of his own mortality, and the stubborn resilience that goes along with it. Atreus now opposes the divine as Pantheon Pantheon reborn, his unbreakable will fueling the fallen Aspect’s weapons on the field of battle.</p>
+            </div>
+        </div>
+    </div>
+    <div id="popup4" class="lightbox">
+        <span class="close cursor" onclick="closeContent4()">&times;</span>
+        <div class="popup-content">
+            <img class="charart" src="./images/Kayn_OriginalCentered.webp">
+            <div class="column">
+                <div class="caption-container">
+                    <h1 id="caption">Kayn</h1>
+                </div>
+                <p>Once an unwilling host to the Aspect of War, Atreus Atreus survived when the celestial power within him was slain, refusing to succumb to a blow that tore stars from the heavens. In time, he learned to embrace the power of his own mortality, and the stubborn resilience that goes along with it. Atreus now opposes the divine as Pantheon Pantheon reborn, his unbreakable will fueling the fallen Aspect’s weapons on the field of battle.</p>
+            </div>
+        </div>
+    </div>
+    <div id="popup5" class="lightbox">
+        <span class="close cursor" onclick="closeContent5()">&times;</span>
+        <div class="popup-content">
+            <img class="charart" src="./images/Veigar_OriginalCentered.webp">
+            <div class="column">
+                <div class="caption-container">
+                    <h1 id="caption">Veigar</h1>
+                </div>
+                <p>Once an unwilling host to the Aspect of War, Atreus Atreus survived when the celestial power within him was slain, refusing to succumb to a blow that tore stars from the heavens. In time, he learned to embrace the power of his own mortality, and the stubborn resilience that goes along with it. Atreus now opposes the divine as Pantheon Pantheon reborn, his unbreakable will fueling the fallen Aspect’s weapons on the field of battle.</p>
+            </div>
+        </div>
+    </div>
+    <div id="popup6" class="lightbox">
+        <span class="close cursor" onclick="closeContent6()">&times;</span>
+        <div class="popup-content">
+            <img class="charart" src="./images/Nautilus_OriginalCentered.webp">
+            <div class="column">
+                <div class="caption-container">
+                    <h1 id="caption">Nautilus</h1>
+                </div>
+                <p>Once an unwilling host to the Aspect of War, Atreus Atreus survived when the celestial power within him was slain, refusing to succumb to a blow that tore stars from the heavens. In time, he learned to embrace the power of his own mortality, and the stubborn resilience that goes along with it. Atreus now opposes the divine as Pantheon Pantheon reborn, his unbreakable will fueling the fallen Aspect’s weapons on the field of battle.</p>
+            </div>
+        </div>
+    </div>
+    <div id="popup7" class="lightbox">
+        <span class="close cursor" onclick="closeContent7()">&times;</span>
+        <div class="popup-content">
+            <img class="charart" src="./images/Nilah_OriginalCentered.webp">
+            <div class="column">
+                <div class="caption-container">
+                    <h1 id="caption">Nilah</h1>
+                </div>
+                <p>Once an unwilling host to the Aspect of War, Atreus Atreus survived when the celestial power within him was slain, refusing to succumb to a blow that tore stars from the heavens. In time, he learned to embrace the power of his own mortality, and the stubborn resilience that goes along with it. Atreus now opposes the divine as Pantheon Pantheon reborn, his unbreakable will fueling the fallen Aspect’s weapons on the field of battle.</p>
+            </div>
+        </div>
+    </div>
+    <div id="popup8" class="lightbox">
+        <span class="close cursor" onclick="closeContent8()">&times;</span>
+        <div class="popup-content">
+            <img class="charart" src="./images/Morgana_OriginalCentered.webp">
+            <div class="column">
+                <div class="caption-container">
+                    <h1 id="caption">Morgana</h1>
+                </div>
+                <p>Once an unwilling host to the Aspect of War, Atreus Atreus survived when the celestial power within him was slain, refusing to succumb to a blow that tore stars from the heavens. In time, he learned to embrace the power of his own mortality, and the stubborn resilience that goes along with it. Atreus now opposes the divine as Pantheon Pantheon reborn, his unbreakable will fueling the fallen Aspect’s weapons on the field of battle.</p>
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>
