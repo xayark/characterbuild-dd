@@ -1,24 +1,33 @@
 body {
     margin:0%;
     padding: 0%;
-    background: black;
+    background-image: url(../images/targon-lol.jpg);
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 header {
-    background-color: red;
-    padding: 10px 0;
+    padding: 0px;
 }
 
 #main-logo {
-    width: 300px;
+    width: 325px;
     display: block;
-    margin: 0 auto;
+    margin: 0px auto;
+}
+
+.heading {
+    margin: 0px;
+    margin-bottom: 30px;
+    text-align: center;
 }
 
 .characters {
     list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
     padding: 0%;
 }
 
@@ -28,6 +37,7 @@ header {
 
 .characters li h3 {
     color:white;
+    text-align: center;
     padding: 15px 8px;
 }
 
@@ -36,36 +46,72 @@ header {
 }
 
 .sprite {
-    width: 150px;
-    height: 150px;
-    background-image: url(../images/marvelSprites.jpg);
+    width: 128px;
+    height: 128px;
+    background-image: url(../images/leagueSprites.jpg);
 }
 
-#carol {
-    background-position: -150px 0px;
+#char1 {
+    background-position: 0px 0px;
 }
 
-#clint {
-    background-position: -300px 0px;
+#char2 {
+    background-position: -128px 0px;
 }
 
-#banner {
-    background-position: -450px 0px;
+#char3 {
+    background-position: -256px 0px;
 }
 
-#thor {
-    background-position: -600px 0px;
+#char4 {
+    background-position: -384px 0px;
 }
 
-#widow {
-    background-position: -750px 0px;
+#char5 {
+    background-position: -512px 0px;
 }
 
-#cap:hover, #carol:hover, #clint:hover, #banner:hover, #thor:hover, #widow:hover {
-    background-position-y: 150px;
+#char6 {
+    background-position: -640px 0px;
+}
+
+#char7 {
+    background-position: -768px 0px;
+}
+
+#char8 {
+    background-position: -896px 0px;
+}
+
+#char1:hover, #char2:hover, #char3:hover, #char4:hover, #char5:hover, #char6:hover, #char7:hover, #char8:hover {
+    background-position-y: 128px;
 }
 
 #instructions {
-    padding: 20px;
+    padding: 0px;
     text-align: center;
+}
+
+#instructions h3 {
+    font-size: 22px;
+}
+
+.sticky-footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.sticky-footer .copyright {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sticky-footer .copyright img {
+    padding-left: 15px;
+    width: auto;
+    height: 30px;
 }
